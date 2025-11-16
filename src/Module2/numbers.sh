@@ -7,7 +7,6 @@ start=$(date +%s%N)
 
 for i in {1..1000}
 do
-  # echo $RANDOM > file1.txt      # Write random number
   echo $RANDOM >> file1.txt     # Append another random number 
 done
 
